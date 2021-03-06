@@ -335,3 +335,7 @@ PYTHONPATH='.' .tox/py36/bin/python  ctutlz/scripts/verify_scts.py -h
 .tox/py36/bin/ctloglist > ctutlz/really_all_logs.md
 .tox/py36/bin/ctloglist --json > ctutlz/really_all_logs.json
 ```
+
+
+### note
+该包已经安装在10.21.238.242，主要作用可以解析cert，验证website对哪种传递sct方式支持，同时支持code和command两种方式测试。有关fabfile主要是创建python虚拟环境。
